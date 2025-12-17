@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+	background: #23272f;
+	color: #e0e0e0;
+}
+
+.bg-main {
+	background: linear-gradient(90deg, #444950 0%, #23272f 100%);
+}
+
+.text-main {
+	color: #e0e0e0;
+}
+
+.accent {
+	color: #b0b0b0;
+}
+
+.btn-main {
+	background: #444950;
+	color: #fff;
+	border-radius: 8px;
+	padding: 0.5rem 1.5rem;
+	transition: background 0.2s;
+}
+.btn-main:hover {
+	background: #23272f;
+	color: #fff;
+}
